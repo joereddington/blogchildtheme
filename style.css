@@ -15,3 +15,27 @@
 @import url("../dynamic-news-lite/style.css");
 
 #sidebar-left { float: left; width: 18%; }
+
+/*from https://wordpress.org/support/topic/how-to-set-different-font-in-content-widget-areas */
+div.widget-area p {font-size:16px;color:black;}
+div.widget-area li {font-size:16px;color:black;}
+
+
+.widget {
+	margin-bottom: 1.5em;
+	box-shadow: 0 0 4px #ddd;
+	border: 1px solid #ddd;
+	padding: 1.5em;
+	background: #fff;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+.widgettitle2 {
+	font-size: 1.9em;
+	font-family: 'Droid Sans', Arial, Tahoma;
+	padding: 0.8em;
+	margin: -0.5em -0.5em 1.5em -0.5em;
+	background: #333;
+	color: #fff;
+	text-transform: uppercase;
+}
