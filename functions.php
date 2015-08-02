@@ -31,4 +31,11 @@ register_sidebar(array(
     'before_title' => '<div class="widgettitle2">',
     'after_title' => '</div>'
     ));
+register_sidebar(array(
+    'name' => 'sidebar-turing',
+    'before_widget' => '<div class="sidebar-box" >',
+    'after_widget' => '</div>',
+    'before_title' => '<div class="widgettitle2">',
+    'after_title' => '</div>'
+    ));
 ?>
